@@ -1,0 +1,439 @@
+
+#main-logo{
+    position: absolute;
+    width: 308px;
+    height: 308px;
+    left: 566px;
+    top: 55px;
+}
+
+.logo{
+  position: absolute;
+  width: 258px;
+  height: 258px;
+  left: 82px;
+  top: 35px;
+}
+
+.maribel{
+  position: absolute;
+  width: 801px;
+  height: 87px;
+  left: 600px;
+  top: 3px;
+
+  font-family: sans-serif;
+  font-style: normal;
+  font-weight: lighter;
+  font-size: 24px;
+  line-height: 28px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+
+  color: rgba(167, 164, 164, 0.39);
+}
+
+.title-page{
+  position: absolute;
+  width: 668px;
+  height: 87px;
+  left: 570px;
+  top: 138px;
+
+  font-family: sans-serif;
+  font-style: normal;
+  font-weight: lighter;
+  font-size: 70px;
+  line-height: 43px;
+  letter-spacing: 2px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+
+  color: rgba(131,93,86);
+}
+
+
+.vertical-menu {
+    width: 200px;
+    margin-left:1150px;
+  }
+  
+  .vertical-menu a {
+    background-color: white;
+    color: rgba(131,93,86);
+    display: block;
+    text-decoration: none;
+    font-size: 25px;
+    margin-top: 25px;
+    font-family: sans-serif;
+    font-weight: lighter;
+  }
+  
+  .vertical-menu a:hover {
+    color: rgb(223, 200, 191);
+    
+  }
+  
+  .vertical-menu a.active {
+    color: rgb(223, 200, 191);;
+  }
+
+
+  .socials{
+    position: absolute;
+    background-color: white;
+    width: 200px;
+    height: 30px;
+    margin-left: 1130px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    float: right;
+}
+
+.fa {
+  padding: 10px;
+  width: 10px;
+  text-align: center;
+  text-decoration: none;
+  margin: 10px 10px;
+}
+
+.fa:hover {
+  opacity: 0.7;
+  color: rgb(223, 200, 191);
+}
+
+.fa-linkedin {
+  background: white;
+  color: rgba(131,93,86);
+}
+
+.fa-instagram {
+  background: white;
+  color: rgba(131,93,86);
+}
+
+#name{
+  position: absolute;
+  width: 801px;
+  height: 87px;
+  left: 550px;
+  top: 360px;
+
+  font-family: sans-serif;
+  font-style: normal;
+  font-weight: lighter;
+  font-size: 37px;
+  line-height: 43px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+
+  color: rgba(131,93,86);
+}
+
+#email{
+  position: absolute;
+  width: 668px;
+  height: 87px;
+  left: 560px;
+  top: 195px;
+
+  font-family: sans-serif;
+  font-style: normal;
+  font-weight: lighter;
+  font-size: 18px;
+  line-height: 32px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+
+  color: rgba(131,93,86);
+}
+
+
+
+#illustrator{
+  position: absolute;
+  width: 583px;
+  height: 445px;
+  left: 100px;
+  top: 470px;
+  background: #C4C4C4;
+}
+
+#illustrator:hover .overlay{
+  height: 100%;
+}
+
+
+#photoshop{
+  position: absolute;
+  width: 583px;
+  height: 445px;
+  left: 720px;
+  top: 470px;
+  background: #C4C4C4;
+
+}
+
+#photoshop:hover .overlay{
+  height: 100%;
+}
+
+#indesign{
+  position: absolute;
+  width: 583px;
+  height: 445px;
+  left: 100px;
+  top: 950px;
+  background: #C4C4C4;
+}
+
+#indesign:hover .overlay{
+  height: 100%;
+}
+
+#web{
+  position: absolute;
+  width: 583px;
+  height: 445px;
+  left: 720px;
+  top: 950px;
+
+  background: #C4C4C4;
+}
+
+#web:hover .overlay{
+  height: 100%;
+}
+
+.overlay{
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: rgba(223, 200, 191, 0.918);
+  overflow: hidden;
+  width: 100%;
+  height: 0;
+  transition: .5s ease;
+  opacity: 30px;
+}
+
+.text{
+  color: white;
+  text-decoration: none;
+  font-size: 20px;
+  font-family: sans-serif;
+  font-weight: lighter;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: left;
+  letter-spacing: .5px;
+  
+}
+
+a{
+  text-decoration: none;
+  color: white;
+}
+
+
+#headshot{
+  position: absolute;
+  width: 708px;
+  height: 400px;
+  left: 82px;
+  top: 370px;
+}
+
+#bio-box{
+  position: absolute;
+  width: 661px;
+  height: 1128px;
+  left: 697px;
+  top: 370px;
+
+background: #BB8C7E;
+}
+
+#maribel-bio{
+  background-color: #BB8C7E;
+  width: 550px;
+  height: 860px;
+  margin-left: 55px;
+  margin-top: 200px;
+  top: 572px;
+
+  font-family: sans-serif;
+  font-style: normal;
+  font-weight: lighter;
+  font-size: 25px;
+  line-height: 29px;
+  align-items: center;
+
+  color: white;
+}
+
+.main-box{
+  background-color: white;
+  width: 1100px;
+  height: 200px;
+  margin-top: 210px;
+  margin-left: 130px;
+}
+
+#box-1{
+  background-color: white;
+  width: 500px;
+  height: 380px;
+  margin-left: 300px;
+}
+
+
+#box-2{
+  background-color: white;
+  width: 500px;
+  height: 400px;
+  margin-top: 30px;
+  margin-left: 300px
+}
+
+
+
+.slideshow {
+  width: 500px;
+  height: 400px;
+  overflow: hidden;
+  position: relative;
+}
+
+.slideshow img{
+  position: absolute;
+  animation:slideshow 20s infinite;
+  opacity:0;
+  width: 100%;
+  height:auto;
+
+}
+
+@keyframes slideshow {25%{opacity:1;} 40%{opacity:0;}}
+.slideshow img:nth-child(4) {
+  animation-delay:0s;
+}
+.slideshow img:nth-child(3){
+  animation-delay:5s;
+}
+
+.slideshow img:nth-child(2){
+  animation-delay:10s;
+}
+
+.slideshow img:nth-child(1){
+  animation-delay:15s;
+}
+
+#box-3{
+  background-color: white;
+  width: 500px;
+  height: 400px;
+  margin-top: 20px;
+}
+
+#box-4{
+  background-color: white;
+  width: 500px;
+  height: 400px;
+  margin-top: 20px;
+}
+
+#box-5{
+  background-color: white;
+  width: 500px;
+  height: 400px;
+  margin-top: 20px;
+}
+
+
+.container {
+  position: relative;
+  width: 50%;
+}
+
+.image {
+  opacity: 1;
+  display: block;
+  width: 100%;
+  height: auto;
+  transition: .5s ease;
+  backface-visibility: hidden;
+}
+
+.middle {
+  transition: .5s ease;
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.container:hover .image {
+  opacity: 0.3;
+}
+
+.container:hover .middle {
+  opacity: 1;
+}
+
+.text-2 {
+  background-color: rgb(201, 166, 152);
+  color: white;
+  font-size: 16px;
+  padding: 16px 32px;
+  margin-left: 250px;
+  width: 75px;
+  font-weight: lighter;
+  font-family: sans-serif;
+}
+
+
+
+.footer{
+  position: absolute;
+  width: 1440px;
+  height: 45px;
+  left: 0px;
+  top: 1500px;
+
+  background: #F4D9CE;
+}
+#footer-text{
+  font-family: sans-serif;
+  font-style: normal;
+  font-weight: lighter;
+  font-size: 15px;
+  line-height: 43px;
+  display: center;
+  align-items: center;
+  text-align: center;
+
+  color: rgb(73, 52, 48);
+
+}
+
+
+
+
+img{
+    width: 100%;
+}
